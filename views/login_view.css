@@ -1,0 +1,28 @@
+QDialog {
+    background-color: #f0f0f0;
+}
+
+QLabel {
+    font-size: 14px;
+    color: #333333;
+}
+
+QLineEdit, QPushButton {
+    font-size: 14px;
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+}
+
+QPushButton {
+    background-color: #4CAF50;
+    color: white;
+}
+
+QPushButton:hover {
+    background-color: #45a049;
+}
+
+QPushButton:pressed {
+    background-color: #367c39;
+}

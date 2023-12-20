@@ -1,0 +1,44 @@
+/* Estilos para QLineEdit */
+QLineEdit {
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 3px;
+  background-color: white;
+}
+QLineEdit:focus {
+  border: 2px solid #4CAF50;
+}
+
+/* Estilos para QPushButton */
+QPushButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+}
+QPushButton:hover {
+  background-color: #45a049;
+}
+QPushButton:pressed {
+  background-color: #367c39;
+}
+
+/* Estilos para QComboBox */
+QComboBox {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: white;
+}
+QComboBox:editable {
+  background-color: white;
+}
+
+/* Estilos para QDateEdit */
+QDateEdit {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: white;
+}

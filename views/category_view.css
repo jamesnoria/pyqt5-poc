@@ -1,0 +1,29 @@
+/* Apply styles to QLabel */
+QLabel {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Apply styles to QLineEdit */
+QLineEdit {
+  border: 1px solid #aaa;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+/* Apply styles to QPushButton */
+QPushButton {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+/* Apply different style when QPushButton is hovered */
+QPushButton:hover {
+  background-color: #45a049;
+}
